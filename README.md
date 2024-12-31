@@ -49,7 +49,7 @@ import pandas as pd
  plt.figure(figsize=(8,6))
  plot_tree(dt,feature_names=x.columns,class_names=['salary','left'],filled=True)
  plt.show()
-
+```
 ## Output:
 [EX 08(ml).pdf](https://github.com/user-attachments/files/17950583/EX.08.ml.pdf)
 
