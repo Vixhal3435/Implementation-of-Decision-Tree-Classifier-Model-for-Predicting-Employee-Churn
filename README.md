@@ -8,10 +8,40 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Problem Definition
+
+Identify independent variables (X) such as satisfaction_level, salary, tenure, and the dependent variable (Y), which indicates churn (1 for churned, 0 for retained).
+
+2.Load Dataset
+
+Load the dataset and inspect for missing values, inconsistent data, or irrelevant features.
+
+3.Preprocessing
+
+Handle missing values.
+Encode categorical variables (e.g., salary levels as numeric).
+Normalize or standardize features if needed.
+
+4.Split Dataset
+
+Split the dataset into training and testing subsets.
+
+5.Initialize Decision Tree Model
+
+Use DecisionTreeClassifier from the sklearn library. Choose parameters like criterion (e.g., gini or entropy) and max_depth as per the problem complexity.
+
+6.Train the Model
+
+Fit the model on the training data.
+
+7.Predict and Evaluate
+
+Use the trained model to predict the target class for the test dataset.
+Evaluate performance using metrics like accuracy, confusion matrix, precision, recall, F1-score, and ROC-AUC.
+
+8.Visualization (Optional)
+
+Visualize the decision tree using tools such as Graphviz or matplotlib.
 
 ## Program:
 ```
